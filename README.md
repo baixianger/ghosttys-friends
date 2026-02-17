@@ -22,6 +22,16 @@ Click the icon in any Finder window:
 - **cd2-ghostty** — Opens a new Ghostty terminal in that folder
 - **ccOpener-ghostty** — Opens Ghostty and runs `claude --dangerously-skip-permissions` in that folder
 
+## Build Your Own
+
+The source AppleScripts are in [`src/`](src/). Compile to `.app` with:
+
+```bash
+osacompile -o cd2-ghostty.app src/cd2-ghostty.applescript
+```
+
+Edit the scripts to customize — e.g. change the command, use a different terminal, etc.
+
 ## License
 
 [MIT](LICENSE)
