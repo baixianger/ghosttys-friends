@@ -1,0 +1,17 @@
+Title: Open Ghostty from Finder in one click — toolbar apps for macOS
+
+Hey! I made a couple tiny toolbar apps for Ghostty that I've been using daily and thought others might find useful.
+
+If you're on macOS, you probably know the pain — you're browsing files in Finder, you want to open a terminal right here, and there's just... no built-in way to do it. Terminal.app has its "New Terminal at Folder" service but it's buried in a right-click menu and doesn't work with Ghostty. And Ghostty doesn't have an AppleScript dictionary like Terminal.app does, so you can't just `do script` your way out of it.
+
+So I made two little apps that sit right in your Finder toolbar:
+- cd2-ghostty — click it, Ghostty opens in whatever folder you're looking at
+- ccOpener-ghostty — same thing but also launches Claude Code
+
+One click. No right-click menus, no copying paths, no cd-ing around. Just Cmd-drag them to your Finder toolbar and you're set.
+
+They work by writing a temp shell script and passing it via `open -na Ghostty --args -e` — no Accessibility permissions needed.
+
+DMG download + source: https://github.com/baixianger/ghosttys-friends
+
+Would love to hear if anyone finds it useful or has ideas for improvements!
