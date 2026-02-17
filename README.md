@@ -10,8 +10,8 @@ Finder toolbar apps that open [Ghostty](https://ghostty.org) in the current fold
 ## Install
 
 1. Download **ghosttys-friends.dmg** from [Releases](../../releases/latest)
-2. Open the DMG and drag both apps somewhere (e.g. `~/Documents/`)
-3. **Cmd-drag** each app into the Finder toolbar
+2. Open the DMG and drag both apps to a **permanent location** (e.g. `~/Documents/` or `/Applications/`) — the toolbar shortcut breaks if the app moves
+3. Hold **⌘ Cmd** and drag each app into the Finder toolbar
 
 > On first launch, macOS may block the app. Right-click → **Open** to bypass Gatekeeper.
 
