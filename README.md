@@ -1,11 +1,37 @@
+<div align="center">
+
 # Ghostty's Friends
 
-Finder toolbar apps that open [Ghostty](https://ghostty.org) in the current folder.
+**One-click Finder toolbar apps for [Ghostty](https://ghostty.org)**
 
-| cd2-ghostty | ccOpener-ghostty |
-|:-----------:|:----------------:|
-| <img src="assets/cd2-ghostty-icon.png" width="128"> | <img src="assets/ccOpener-ghostty-icon.png" width="128"> |
-| Open Ghostty here | Open Ghostty + [Claude Code](https://docs.anthropic.com/en/docs/claude-code) |
+[![Release](https://img.shields.io/github/v/release/baixianger/ghosttys-friends?style=flat-square&color=6B5CE7)](../../releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![macOS](https://img.shields.io/badge/macOS-only-black?style=flat-square&logo=apple&logoColor=white)](../../releases/latest)
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="200">
+<img src="assets/cd2-ghostty-icon.png" width="128"><br>
+<b>cd2-ghostty</b><br>
+<sub>Open Ghostty here</sub>
+</td>
+<td align="center" width="200">
+<img src="assets/ccOpener-ghostty-icon.png" width="128"><br>
+<b>ccOpener-ghostty</b><br>
+<sub>Open Ghostty + <a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code</a></sub>
+</td>
+</tr>
+</table>
+
+<br>
+
+[**Download DMG**](../../releases/latest)
+
+</div>
+
+---
 
 ## Install
 
